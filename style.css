@@ -1,0 +1,96 @@
+.flex-container {
+    display: flex;
+    
+    padding: 25px;height: 500px;
+    border-radius: 5px;
+
+
+}
+.b{
+    margin-top: 100px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.flex-container > .box2 {
+    margin-left: 800px;
+    position:fixed;
+    width: 500px;
+}
+input[type="radio"]:checked+label{
+  background-color:aqua;
+}
+
+input[type="button"]:checked{
+    background-color:antiquewhite;
+  }
+
+input[type="radio"],.label{
+    margin-top: 25px;
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+    
+    
+    
+  }
+  body{
+    background-color: aliceblue;
+  }
+p{
+ font-size:25px;
+}
+label{
+    padding: 8px;
+    border-radius: 7px;
+     font-size: 20px;
+     
+}
+
+#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8, #bt9, #bt10,
+#bt11, #bt12, #bt13, #bt14, #bt15, #bt16, #bt17, #bt18, #bt19, #bt20,
+#bt21, #bt22, #bt23, #bt24, #bt25, #bt26, #bt27, #bt28, #bt29, #bt30,
+#bt31, #bt32, #bt33, #bt34, #bt35, #bt36, #bt37, #bt38, #bt39, #bt40,
+#bt41, #bt42, #bt43, #bt44, #bt45, #bt46, #bt47, #bt48, #bt49, #bt50,
+#bt51, #bt52, #bt53, #bt54, #bt55{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    
+
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    padding:20px;
+    margin: 0;
+
+}
+
+
+
+
+
+/* #bt1, #bt2, #bt3, #bt4: {
+    background-color:blue;
+} */
+#b3{
+   margin-left:20px;
+}
+
+
+.question {
+    display: none;
+}
+
+.question.active {
+    display: block;
+}
+
+button {
+    margin-top: 3px;
+width:80px;
+height:30px;
+}

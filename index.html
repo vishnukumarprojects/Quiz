@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Quiz Time</h1>
+    <h3 id="result"></h3>
+    <div class="flex-container">
+        <div class="box1">
+            <form>
+                <!-- ENGLISH -->
+
+<div class="question active" id="question1">
+    <p>1. Which of the following is a noun?</p>
+    <input type="radio" name="q1" value="a" id="1q1">
+    <label for="1q1">a. Run</label><br>
+    <input type="radio" name="q1" value="b" id="1q2">
+    <label for="1q2">b. Happiness</label><br>
+    <input type="radio" name="q1" value="c" id="1q3">
+    <label for="1q3">c. Quickly</label><br>
+    <input type="radio" name="q1" value="d" id="1q4">
+    <label for="1q4">d. Beautiful</label>
+    </div>
+    
+    <div class="question" id="question2">
+    <p>2. Which word is a verb?</p>
+    <input type="radio" name="q2" value="a" id="2q1">
+    <label for="2q1">a. Table</label><br>
+    <input type="radio" name="q2" value="b" id="2q2">
+    <label for="2q2">b. Jump</label><br>
+    <input type="radio" name="q2" value="c" id="2q3">
+    <label for="2q3">c. Blue</label><br>
+    <input type="radio" name="q2" value="d" id="2q4">
+    <label for="2q4">d. Slowly</label>
+    </div>
+    
+    <div class="question" id="question3">
+    <p>3. What is the plural of "Child"?</p>
+    <input type="radio" name="q3" value="a" id="3q1">
+    <label for="3q1">a. Childs</label><br>
+    <input type="radio" name="q3" value="b" id="3q2">
+    <label for="3q2">b. Children</label><br>
+    <input type="radio" name="q3" value="c" id="3q3">
+    <label for="3q3">c. Childes</label><br>
+    <input type="radio" name="q3" value="d" id="3q4">
+    <label for="3q4">d. Childrens</label>
+    </div>
+    
+    <div class="question" id="question4">
+    <p>4. Which word is an adjective?</p>
+    <input type="radio" name="q4" value="a" id="4q1">
+    <label for="4q1">a. Beautiful</label><br>
+    <input type="radio" name="q4" value="b" id="4q2">
+    <label for="4q2">b. Run</label><br>
+    <input type="radio" name="q4" value="c" id="4q3">
+    <label for="4q3">c. Jump</label><br>
+    <input type="radio" name="q4" value="d" id="4q4">
+    <label for="4q4">d. Slowly</label>
+    </div>
+    
+    <div class="question" id="question5">
+    <p>5. Which is a pronoun?</p>
+    <input type="radio" name="q5" value="a" id="5q1">
+    <label for="5q1">a. He</label><br>
+    <input type="radio" name="q5" value="b" id="5q2">
+    <label for="5q2">b. Book</label><br>
+    <input type="radio" name="q5" value="c" id="5q3">
+    <label for="5q3">c. Run</label><br>
+    <input type="radio" name="q5" value="d" id="5q4">
+    <label for="5q4">d. Big</label>
+    </div>
+    
+    <div class="question" id="question6">
+    <p>6. Choose the correct sentence.</p>
+    <input type="radio" name="q6" value="a" id="6q1">
+    <label for="6q1">a. She go to school</label><br>
+    <input type="radio" name="q6" value="b" id="6q2">
+    <label for="6q2">b. She goes to school</label><br>
+    <input type="radio" name="q6" value="c" id="6q3">
+    <label for="6q3">c. She going school</label><br>
+    <input type="radio" name="q6" value="d" id="6q4">
+    <label for="6q4">d. She go school</label>
+    </div>
+    
+    <!-- MATHS -->
+    
+    <div class="question" id="question7">
+    <p>7. What is 5 + 3?</p>
+    <input type="radio" name="q7" value="a" id="7q1">
+    <label for="7q1">a. 6</label><br>
+    <input type="radio" name="q7" value="b" id="7q2">
+    <label for="7q2">b. 7</label><br>
+    <input type="radio" name="q7" value="c" id="7q3">
+    <label for="7q3">c. 8</label><br>
+    <input type="radio" name="q7" value="d" id="7q4">
+    <label for="7q4">d. 9</label>
+    </div>
+    
+    <div class="question" id="question8">
+    <p>8. What is 10 − 4?</p>
+    <input type="radio" name="q8" value="a" id="8q1">
+    <label for="8q1">a. 5</label><br>
+    <input type="radio" name="q8" value="b" id="8q2">
+    <label for="8q2">b. 6</label><br>
+    <input type="radio" name="q8" value="c" id="8q3">
+    <label for="8q3">c. 7</label><br>
+    <input type="radio" name="q8" value="d" id="8q4">
+    <label for="8q4">d. 8</label>
+    </div>
+    
+    <div class="question" id="question9">
+    <p>9. What is 4 × 3?</p>
+    <input type="radio" name="q9" value="a" id="9q1">
+    <label for="9q1">a. 7</label><br>
+    <input type="radio" name="q9" value="b" id="9q2">
+    <label for="9q2">b. 10</label><br>
+    <input type="radio" name="q9" value="c" id="9q3">
+    <label for="9q3">c. 12</label><br>
+    <input type="radio" name="q9" value="d" id="9q4">
+    <label for="9q4">d. 14</label>
+    </div>
+    
+    <div class="question" id="question10">
+    <p>10. What is 20 ÷ 5?</p>
+    <input type="radio" name="q10" value="a" id="10q1">
+    <label for="10q1">a. 2</label><br>
+    <input type="radio" name="q10" value="b" id="10q2">
+    <label for="10q2">b. 3</label><br>
+    <input type="radio" name="q10" value="c" id="10q3">
+    <label for="10q3">c. 4</label><br>
+    <input type="radio" name="q10" value="d" id="10q4">
+    <label for="10q4">d. 5</label>
+    </div>
+    
+    <div class="question" id="question11">
+    <p>11. What is 9 + 6?</p>
+    <input type="radio" name="q11" value="a" id="11q1">
+    <label for="11q1">a. 14</label><br>
+    <input type="radio" name="q11" value="b" id="11q2">
+    <label for="11q2">b. 15</label><br>
+    <input type="radio" name="q11" value="c" id="11q3">
+    <label for="11q3">c. 16</label><br>
+    <input type="radio" name="q11" value="d" id="11q4">
+    <label for="11q4">d. 17</label>
+    </div>
+    
+    <div class="question" id="question12">
+    <p>12. What is the square of 5?</p>
+    <input type="radio" name="q12" value="a" id="12q1">
+    <label for="12q1">a. 10</label><br>
+    <input type="radio" name="q12" value="b" id="12q2">
+    <label for="12q2">b. 20</label><br>
+    <input type="radio" name="q12" value="c" id="12q3">
+    <label for="12q3">c. 25</label><br>
+    <input type="radio" name="q12" value="d" id="12q4">
+    <label for="12q4">d. 30</label>
+    </div>
+    
+    <!-- SCIENCE -->
+    
+    <div class="question" id="question13">
+    <p>13. Which planet is called the Red Planet?</p>
+    <input type="radio" name="q13" value="a" id="13q1">
+    <label for="13q1">a. Earth</label><br>
+    <input type="radio" name="q13" value="b" id="13q2">
+    <label for="13q2">b. Mars</label><br>
+    <input type="radio" name="q13" value="c" id="13q3">
+    <label for="13q3">c. Venus</label><br>
+    <input type="radio" name="q13" value="d" id="13q4">
+    <label for="13q4">d. Jupiter</label>
+    </div>
+    
+    <div class="question" id="question14">
+    <p>14. Water freezes at?</p>
+    <input type="radio" name="q14" value="a" id="14q1">
+    <label for="14q1">a. 0°C</label><br>
+    <input type="radio" name="q14" value="b" id="14q2">
+    <label for="14q2">b. 50°C</label><br>
+    <input type="radio" name="q14" value="c" id="14q3">
+    <label for="14q3">c. 100°C</label><br>
+    <input type="radio" name="q14" value="d" id="14q4">
+    <label for="14q4">d. 10°C</label>
+    </div>
+    
+    <!-- SCIENCE -->
+
+<div class="question" id="question15">
+    <p>15. Plants make food using?</p>
+    <input type="radio" name="q15" value="a" id="15q1">
+    <label for="15q1">a. Sunlight</label><br>
+    <input type="radio" name="q15" value="b" id="15q2">
+    <label for="15q2">b. Soil</label><br>
+    <input type="radio" name="q15" value="c" id="15q3">
+    <label for="15q3">c. Water</label><br>
+    <input type="radio" name="q15" value="d" id="15q4">
+    <label for="15q4">d. Air</label>
+    </div>
+    
+    <div class="question" id="question16">
+    <p>16. Which gas do humans breathe in?</p>
+    <input type="radio" name="q16" value="a" id="16q1">
+    <label for="16q1">a. Oxygen</label><br>
+    <input type="radio" name="q16" value="b" id="16q2">
+    <label for="16q2">b. Carbon dioxide</label><br>
+    <input type="radio" name="q16" value="c" id="16q3">
+    <label for="16q3">c. Nitrogen</label><br>
+    <input type="radio" name="q16" value="d" id="16q4">
+    <label for="16q4">d. Hydrogen</label>
+    </div>
+    
+    <div class="question" id="question17">
+    <p>17. Earth is the ___ planet from the Sun.</p>
+    <input type="radio" name="q17" value="a" id="17q1">
+    <label for="17q1">a. Second</label><br>
+    <input type="radio" name="q17" value="b" id="17q2">
+    <label for="17q2">b. Third</label><br>
+    <input type="radio" name="q17" value="c" id="17q3">
+    <label for="17q3">c. Fourth</label><br>
+    <input type="radio" name="q17" value="d" id="17q4">
+    <label for="17q4">d. Fifth</label>
+    </div>
+    
+    <!-- SOCIAL SCIENCE -->
+    
+    <div class="question" id="question18">
+    <p>18. Who is the Father of the Nation in India?</p>
+    <input type="radio" name="q18" value="a" id="18q1">
+    <label for="18q1">a. Jawaharlal Nehru</label><br>
+    <input type="radio" name="q18" value="b" id="18q2">
+    <label for="18q2">b. Mahatma Gandhi</label><br>
+    <input type="radio" name="q18" value="c" id="18q3">
+    <label for="18q3">c. Bhagat Singh</label><br>
+    <input type="radio" name="q18" value="d" id="18q4">
+    <label for="18q4">d. Subhash Chandra Bose</label>
+    </div>
+    
+    <div class="question" id="question19">
+    <p>19. What is the capital of India?</p>
+    <input type="radio" name="q19" value="a" id="19q1">
+    <label for="19q1">a. Mumbai</label><br>
+    <input type="radio" name="q19" value="b" id="19q2">
+    <label for="19q2">b. New Delhi</label><br>
+    <input type="radio" name="q19" value="c" id="19q3">
+    <label for="19q3">c. Chennai</label><br>
+    <input type="radio" name="q19" value="d" id="19q4">
+    <label for="19q4">d. Kolkata</label>
+    </div>
+    
+    <div class="question" id="question20">
+    <p>20. India got independence in?</p>
+    <input type="radio" name="q20" value="a" id="20q1">
+    <label for="20q1">a. 1945</label><br>
+    <input type="radio" name="q20" value="b" id="20q2">
+    <label for="20q2">b. 1946</label><br>
+    <input type="radio" name="q20" value="c" id="20q3">
+    <label for="20q3">c. 1947</label><br>
+    <input type="radio" name="q20" value="d" id="20q4">
+    <label for="20q4">d. 1948</label>
+    </div>
+    
+    <!-- COMPUTER -->
+    
+    <div class="question" id="question21">
+    <p>21. What does CPU stand for?</p>
+    <input type="radio" name="q21" value="a" id="21q1">
+    <label for="21q1">a. Central Processing Unit</label><br>
+    <input type="radio" name="q21" value="b" id="21q2">
+    <label for="21q2">b. Computer Processing Unit</label><br>
+    <input type="radio" name="q21" value="c" id="21q3">
+    <label for="21q3">c. Central Program Unit</label><br>
+    <input type="radio" name="q21" value="d" id="21q4">
+    <label for="21q4">d. Control Processing Unit</label>
+    </div>
+    
+    <div class="question" id="question22">
+    <p>22. Which device is used to type text?</p>
+    <input type="radio" name="q22" value="a" id="22q1">
+    <label for="22q1">a. Monitor</label><br>
+    <input type="radio" name="q22" value="b" id="22q2">
+    <label for="22q2">b. Keyboard</label><br>
+    <input type="radio" name="q22" value="c" id="22q3">
+    <label for="22q3">c. Printer</label><br>
+    <input type="radio" name="q22" value="d" id="22q4">
+    <label for="22q4">d. Speaker</label>
+    </div>
+    
+    <div class="question" id="question23">
+    <p>23. What does HTML stand for?</p>
+    <input type="radio" name="q23" value="a" id="23q1">
+    <label for="23q1">a. Hyper Text Markup Language</label><br>
+    <input type="radio" name="q23" value="b" id="23q2">
+    <label for="23q2">b. High Text Machine Language</label><br>
+    <input type="radio" name="q23" value="c" id="23q3">
+    <label for="23q3">c. Hyper Transfer Markup Language</label><br>
+    <input type="radio" name="q23" value="d" id="23q4">
+    <label for="23q4">d. Hyper Tool Markup Language</label>
+    </div>
+    
+    <div class="question" id="question24">
+    <p>24. Which language is used to style web pages?</p>
+    <input type="radio" name="q24" value="a" id="24q1">
+    <label for="24q1">a. HTML</label><br>
+    <input type="radio" name="q24" value="b" id="24q2">
+    <label for="24q2">b. CSS</label><br>
+    <input type="radio" name="q24" value="c" id="24q3">
+    <label for="24q3">c. Python</label><br>
+    <input type="radio" name="q24" value="d" id="24q4">
+    <label for="24q4">d. Java</label>
+    </div>
+    
+    <div class="question" id="question25">
+    <p>25. Which of the following is an input device?</p>
+    <input type="radio" name="q25" value="a" id="25q1">
+    <label for="25q1">a. Monitor</label><br>
+    <input type="radio" name="q25" value="b" id="25q2">
+    <label for="25q2">b. Speaker</label><br>
+    <input type="radio" name="q25" value="c" id="25q3">
+    <label for="25q3">c. Keyboard</label><br>
+    <input type="radio" name="q25" value="d" id="25q4">
+    <label for="25q4">d. Printer</label>
+    </div>                    
+                       <!-- COMPUTER -->
+
+<div class="question" id="question26">
+    <p>26. Which device displays output from a computer?</p>
+    <input type="radio" name="q26" value="a" id="26q1">
+    <label for="26q1">a. Monitor</label><br>
+    <input type="radio" name="q26" value="b" id="26q2">
+    <label for="26q2">b. Keyboard</label><br>
+    <input type="radio" name="q26" value="c" id="26q3">
+    <label for="26q3">c. Mouse</label><br>
+    <input type="radio" name="q26" value="d" id="26q4">
+    <label for="26q4">d. Scanner</label>
+    </div>
+    
+    <div class="question" id="question27">
+    <p>27. Which part of the computer is the brain?</p>
+    <input type="radio" name="q27" value="a" id="27q1">
+    <label for="27q1">a. CPU</label><br>
+    <input type="radio" name="q27" value="b" id="27q2">
+    <label for="27q2">b. Monitor</label><br>
+    <input type="radio" name="q27" value="c" id="27q3">
+    <label for="27q3">c. Keyboard</label><br>
+    <input type="radio" name="q27" value="d" id="27q4">
+    <label for="27q4">d. Printer</label>
+    </div>
+    
+    <div class="question" id="question28">
+    <p>28. Which device is used to move the cursor?</p>
+    <input type="radio" name="q28" value="a" id="28q1">
+    <label for="28q1">a. Keyboard</label><br>
+    <input type="radio" name="q28" value="b" id="28q2">
+    <label for="28q2">b. Mouse</label><br>
+    <input type="radio" name="q28" value="c" id="28q3">
+    <label for="28q3">c. Printer</label><br>
+    <input type="radio" name="q28" value="d" id="28q4">
+    <label for="28q4">d. Speaker</label>
+    </div>
+    
+    <div class="question" id="question29">
+    <p>29. Which key is used to delete text?</p>
+    <input type="radio" name="q29" value="a" id="29q1">
+    <label for="29q1">a. Shift</label><br>
+    <input type="radio" name="q29" value="b" id="29q2">
+    <label for="29q2">b. Delete</label><br>
+    <input type="radio" name="q29" value="c" id="29q3">
+    <label for="29q3">c. Alt</label><br>
+    <input type="radio" name="q29" value="d" id="29q4">
+    <label for="29q4">d. Ctrl</label>
+    </div>
+    
+    <div class="question" id="question30">
+    <p>30. Which software is used to browse the internet?</p>
+    <input type="radio" name="q30" value="a" id="30q1">
+    <label for="30q1">a. Browser</label><br>
+    <input type="radio" name="q30" value="b" id="30q2">
+    <label for="30q2">b. Calculator</label><br>
+    <input type="radio" name="q30" value="c" id="30q3">
+    <label for="30q3">c. Paint</label><br>
+    <input type="radio" name="q30" value="d" id="30q4">
+    <label for="30q4">d. Notepad</label>
+    </div>
+    
+    <!-- MIXED QUESTIONS -->
+    
+    <div class="question" id="question31">
+    <p>31. What is 12 + 8?</p>
+    <input type="radio" name="q31" value="a" id="31q1">
+    <label for="31q1">a. 18</label><br>
+    <input type="radio" name="q31" value="b" id="31q2">
+    <label for="31q2">b. 19</label><br>
+    <input type="radio" name="q31" value="c" id="31q3">
+    <label for="31q3">c. 20</label><br>
+    <input type="radio" name="q31" value="d" id="31q4">
+    <label for="31q4">d. 21</label>
+    </div>
+    
+    <div class="question" id="question32">
+    <p>32. What is 15 − 5?</p>
+    <input type="radio" name="q32" value="a" id="32q1">
+    <label for="32q1">a. 10</label><br>
+    <input type="radio" name="q32" value="b" id="32q2">
+    <label for="32q2">b. 9</label><br>
+    <input type="radio" name="q32" value="c" id="32q3">
+    <label for="32q3">c. 8</label><br>
+    <input type="radio" name="q32" value="d" id="32q4">
+    <label for="32q4">d. 11</label>
+    </div>
+    
+    <div class="question" id="question33">
+    <p>33. What is 6 × 4?</p>
+    <input type="radio" name="q33" value="a" id="33q1">
+    <label for="33q1">a. 22</label><br>
+    <input type="radio" name="q33" value="b" id="33q2">
+    <label for="33q2">b. 24</label><br>
+    <input type="radio" name="q33" value="c" id="33q3">
+    <label for="33q3">c. 26</label><br>
+    <input type="radio" name="q33" value="d" id="33q4">
+    <label for="33q4">d. 28</label>
+    </div>
+    
+    <div class="question" id="question34">
+    <p>34. What is 30 ÷ 5?</p>
+    <input type="radio" name="q34" value="a" id="34q1">
+    <label for="34q1">a. 5</label><br>
+    <input type="radio" name="q34" value="b" id="34q2">
+    <label for="34q2">b. 6</label><br>
+    <input type="radio" name="q34" value="c" id="34q3">
+    <label for="34q3">c. 7</label><br>
+    <input type="radio" name="q34" value="d" id="34q4">
+    <label for="34q4">d. 8</label>
+    </div>
+    
+    <div class="question" id="question35">
+    <p>35. Which planet is the largest?</p>
+    <input type="radio" name="q35" value="a" id="35q1">
+    <label for="35q1">a. Earth</label><br>
+    <input type="radio" name="q35" value="b" id="35q2">
+    <label for="35q2">b. Jupiter</label><br>
+    <input type="radio" name="q35" value="c" id="35q3">
+    <label for="35q3">c. Mars</label><br>
+    <input type="radio" name="q35" value="d" id="35q4">
+    <label for="35q4">d. Venus</label>
+    </div>
+    
+    <div class="question" id="question36">
+    <p>36. Which organ pumps blood?</p>
+    <input type="radio" name="q36" value="a" id="36q1">
+    <label for="36q1">a. Brain</label><br>
+    <input type="radio" name="q36" value="b" id="36q2">
+    <label for="36q2">b. Heart</label><br>
+    <input type="radio" name="q36" value="c" id="36q3">
+    <label for="36q3">c. Liver</label><br>
+    <input type="radio" name="q36" value="d" id="36q4">
+    <label for="36q4">d. Kidney</label>
+    </div>
+    
+    <div class="question" id="question37">
+    <p>37. Which country is known as the Land of the Rising Sun?</p>
+    <input type="radio" name="q37" value="a" id="37q1">
+    <label for="37q1">a. China</label><br>
+    <input type="radio" name="q37" value="b" id="37q2">
+    <label for="37q2">b. Japan</label><br>
+    <input type="radio" name="q37" value="c" id="37q3">
+    <label for="37q3">c. Korea</label><br>
+    <input type="radio" name="q37" value="d" id="37q4">
+    <label for="37q4">d. Thailand</label>
+    </div>
+    
+    <div class="question" id="question38">
+    <p>38. Which river is the longest in the world?</p>
+    <input type="radio" name="q38" value="a" id="38q1">
+    <label for="38q1">a. Amazon</label><br>
+    <input type="radio" name="q38" value="b" id="38q2">
+    <label for="38q2">b. Nile</label><br>
+    <input type="radio" name="q38" value="c" id="38q3">
+    <label for="38q3">c. Ganga</label><br>
+    <input type="radio" name="q38" value="d" id="38q4">
+    <label for="38q4">d. Yangtze</label>
+    </div>
+    
+    <div class="question" id="question39">
+    <p>39. Which language is used for web page structure?</p>
+    <input type="radio" name="q39" value="a" id="39q1">
+    <label for="39q1">a. HTML</label><br>
+    <input type="radio" name="q39" value="b" id="39q2">
+    <label for="39q2">b. CSS</label><br>
+    <input type="radio" name="q39" value="c" id="39q3">
+    <label for="39q3">c. Python</label><br>
+    <input type="radio" name="q39" value="d" id="39q4">
+    <label for="39q4">d. Java</label>
+    </div>
+    
+    <div class="question" id="question40">
+    <p>40. Which language is used for styling web pages?</p>
+    <input type="radio" name="q40" value="a" id="40q1">
+    <label for="40q1">a. HTML</label><br>
+    <input type="radio" name="q40" value="b" id="40q2">
+    <label for="40q2">b. CSS</label><br>
+    <input type="radio" name="q40" value="c" id="40q3">
+    <label for="40q3">c. C++</label><br>
+    <input type="radio" name="q40" value="d" id="40q4">
+    <label for="40q4">d. Java</label>
+    </div>     
+                           <!-- CONTINUED QUESTIONS -->
+
+<div class="question" id="question41">
+    <p>41. What is 7 + 6?</p>
+    <input type="radio" name="q41" value="a" id="41q1"><label for="41q1">a. 12</label><br>
+    <input type="radio" name="q41" value="b" id="41q2"><label for="41q2">b. 13</label><br>
+    <input type="radio" name="q41" value="c" id="41q3"><label for="41q3">c. 14</label><br>
+    <input type="radio" name="q41" value="d" id="41q4"><label for="41q4">d. 15</label>
+    </div>
+    
+    <div class="question" id="question42">
+    <p>42. What is 9 × 3?</p>
+    <input type="radio" name="q42" value="a" id="42q1"><label for="42q1">a. 27</label><br>
+    <input type="radio" name="q42" value="b" id="42q2"><label for="42q2">b. 26</label><br>
+    <input type="radio" name="q42" value="c" id="42q3"><label for="42q3">c. 25</label><br>
+    <input type="radio" name="q42" value="d" id="42q4"><label for="42q4">d. 24</label>
+    </div>
+    
+    <div class="question" id="question43">
+    <p>43. What is 16 ÷ 4?</p>
+    <input type="radio" name="q43" value="a" id="43q1"><label for="43q1">a. 2</label><br>
+    <input type="radio" name="q43" value="b" id="43q2"><label for="43q2">b. 3</label><br>
+    <input type="radio" name="q43" value="c" id="43q3"><label for="43q3">c. 4</label><br>
+    <input type="radio" name="q43" value="d" id="43q4"><label for="43q4">d. 5</label>
+    </div>
+    
+    <div class="question" id="question44">
+    <p>44. What is 14 − 7?</p>
+    <input type="radio" name="q44" value="a" id="44q1"><label for="44q1">a. 6</label><br>
+    <input type="radio" name="q44" value="b" id="44q2"><label for="44q2">b. 7</label><br>
+    <input type="radio" name="q44" value="c" id="44q3"><label for="44q3">c. 8</label><br>
+    <input type="radio" name="q44" value="d" id="44q4"><label for="44q4">d. 9</label>
+    </div>
+    
+    <div class="question" id="question45">
+    <p>45. Which planet is closest to the Sun?</p>
+    <input type="radio" name="q45" value="a" id="45q1"><label for="45q1">a. Mercury</label><br>
+    <input type="radio" name="q45" value="b" id="45q2"><label for="45q2">b. Venus</label><br>
+    <input type="radio" name="q45" value="c" id="45q3"><label for="45q3">c. Earth</label><br>
+    <input type="radio" name="q45" value="d" id="45q4"><label for="45q4">d. Mars</label>
+    </div>
+    
+    <div class="question" id="question46">
+    <p>46. Which gas do plants release?</p>
+    <input type="radio" name="q46" value="a" id="46q1"><label for="46q1">a. Oxygen</label><br>
+    <input type="radio" name="q46" value="b" id="46q2"><label for="46q2">b. Nitrogen</label><br>
+    <input type="radio" name="q46" value="c" id="46q3"><label for="46q3">c. Carbon dioxide</label><br>
+    <input type="radio" name="q46" value="d" id="46q4"><label for="46q4">d. Hydrogen</label>
+    </div>
+    
+    <div class="question" id="question47">
+    <p>47. Which organ helps us breathe?</p>
+    <input type="radio" name="q47" value="a" id="47q1"><label for="47q1">a. Heart</label><br>
+    <input type="radio" name="q47" value="b" id="47q2"><label for="47q2">b. Lungs</label><br>
+    <input type="radio" name="q47" value="c" id="47q3"><label for="47q3">c. Brain</label><br>
+    <input type="radio" name="q47" value="d" id="47q4"><label for="47q4">d. Kidney</label>
+    </div>
+    
+    <div class="question" id="question48">
+    <p>48. What is the national bird of India?</p>
+    <input type="radio" name="q48" value="a" id="48q1"><label for="48q1">a. Peacock</label><br>
+    <input type="radio" name="q48" value="b" id="48q2"><label for="48q2">b. Parrot</label><br>
+    <input type="radio" name="q48" value="c" id="48q3"><label for="48q3">c. Crow</label><br>
+    <input type="radio" name="q48" value="d" id="48q4"><label for="48q4">d. Eagle</label>
+    </div>
+    
+    <div class="question" id="question49">
+    <p>49. Who was the first Prime Minister of India?</p>
+    <input type="radio" name="q49" value="a" id="49q1"><label for="49q1">a. Mahatma Gandhi</label><br>
+    <input type="radio" name="q49" value="b" id="49q2"><label for="49q2">b. Jawaharlal Nehru</label><br>
+    <input type="radio" name="q49" value="c" id="49q3"><label for="49q3">c. Lal Bahadur Shastri</label><br>
+    <input type="radio" name="q49" value="d" id="49q4"><label for="49q4">d. Rajendra Prasad</label>
+    </div>
+    
+    <div class="question" id="question50">
+    <p>50. Which key is used to start a new line?</p>
+    <input type="radio" name="q50" value="a" id="50q1"><label for="50q1">a. Shift</label><br>
+    <input type="radio" name="q50" value="b" id="50q2"><label for="50q2">b. Enter</label><br>
+    <input type="radio" name="q50" value="c" id="50q3"><label for="50q3">c. Ctrl</label><br>
+    <input type="radio" name="q50" value="d" id="50q4"><label for="50q4">d. Alt</label>
+    </div>
+    
+    <!-- 51–100 same format continues -->
+    
+    <div class="question" id="question51">
+    <p>51. What is 11 + 9?</p>
+    <input type="radio" name="q51" value="a" id="51q1"><label for="51q1">a. 19</label><br>
+    <input type="radio" name="q51" value="b" id="51q2"><label for="51q2">b. 20</label><br>
+    <input type="radio" name="q51" value="c" id="51q3"><label for="51q3">c. 21</label><br>
+    <input type="radio" name="q51" value="d" id="51q4"><label for="51q4">d. 22</label>
+    </div>
+    
+    <div class="question" id="question52">
+    <p>52. What is 8 × 5?</p>
+    <input type="radio" name="q52" value="a" id="52q1"><label for="52q1">a. 35</label><br>
+    <input type="radio" name="q52" value="b" id="52q2"><label for="52q2">b. 40</label><br>
+    <input type="radio" name="q52" value="c" id="52q3"><label for="52q3">c. 45</label><br>
+    <input type="radio" name="q52" value="d" id="52q4"><label for="52q4">d. 50</label>
+    </div>
+    
+    <div class="question" id="question53">
+    <p>53. What is 100 ÷ 10?</p>
+    <input type="radio" name="q53" value="a" id="53q1"><label for="53q1">a. 5</label><br>
+    <input type="radio" name="q53" value="b" id="53q2"><label for="53q2">b. 8</label><br>
+    <input type="radio" name="q53" value="c" id="53q3"><label for="53q3">c. 10</label><br>
+    <input type="radio" name="q53" value="d" id="53q4"><label for="53q4">d. 12</label>
+    </div>
+    
+    <div class="question" id="question54">
+    <p>54. Which planet is known as the Red Planet?</p>
+    <input type="radio" name="q54" value="a" id="54q1"><label for="54q1">a. Mars</label><br>
+    <input type="radio" name="q54" value="b" id="54q2"><label for="54q2">b. Earth</label><br>
+    <input type="radio" name="q54" value="c" id="54q3"><label for="54q3">c. Venus</label><br>
+    <input type="radio" name="q54" value="d" id="54q4"><label for="54q4">d. Jupiter</label>
+    </div>
+    
+    <div class="question" id="question55">
+    <p>55. Which continent is India in?</p>
+    <input type="radio" name="q55" value="a" id="55q1"><label for="55q1">a. Europe</label><br>
+    <input type="radio" name="q55" value="b" id="55q2"><label for="55q2">b. Asia</label><br>
+    <input type="radio" name="q55" value="c" id="55q3"><label for="55q3">c. Africa</label><br>
+    <input type="radio" name="q55" value="d" id="55q4"><label for="55q4">d. Australia</label>
+    </div>
+    
+                            
+                    
+                <br>
+                <div class="b">
+                
+                <button type="button" onclick="previous()">Previous</button>
+                <button type="button" onclick="next()" >Next</button>
+                <button type="button" onclick="clear" id="clearr">Clear</button>
+                <button type="button" onclick="calculateScore()" style="background-color:red;border:2px solid black;color:white;border-radius:5px;" id="b3">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="box2">
+            <button type="button" onclick="showQuestion(1)" id="bt1">1</button>
+            <button type="button" onclick="showQuestion(2)" id="bt2">2</button>
+            <button type="button" onclick="showQuestion(3)" id="bt3">3</button>
+            <button type="button" onclick="showQuestion(4)" id="bt4">4</button>
+            <button type="button" onclick="showQuestion(5)" id="bt5">5</button>
+            <button type="button" onclick="showQuestion(6)" id="bt6">6</button>
+            <button type="button" onclick="showQuestion(7)" id="bt7">7</button>
+            <button type="button" onclick="showQuestion(8)" id="bt8">8</button>
+            <button type="button" onclick="showQuestion(9)" id="bt9">9</button>
+            <button type="button" onclick="showQuestion(10)" id="bt10">10</button>
+            
+            <button type="button" onclick="showQuestion(11)" id="bt11">11</button>
+            <button type="button" onclick="showQuestion(12)" id="bt12">12</button>
+            <button type="button" onclick="showQuestion(13)" id="bt13">13</button>
+            <button type="button" onclick="showQuestion(14)" id="bt14">14</button>
+            <button type="button" onclick="showQuestion(15)" id="bt15">15</button>
+            <button type="button" onclick="showQuestion(16)" id="bt16">16</button>
+            <button type="button" onclick="showQuestion(17)" id="bt17">17</button>
+            <button type="button" onclick="showQuestion(18)" id="bt18">18</button>
+            <button type="button" onclick="showQuestion(19)" id="bt19">19</button>
+            <button type="button" onclick="showQuestion(20)" id="bt20">20</button>
+            
+            <button type="button" onclick="showQuestion(21)" id="bt21">21</button>
+            <button type="button" onclick="showQuestion(22)" id="bt22">22</button>
+            <button type="button" onclick="showQuestion(23)" id="bt23">23</button>
+            <button type="button" onclick="showQuestion(24)" id="bt24">24</button>
+            <button type="button" onclick="showQuestion(25)" id="bt25">25</button>
+            <button type="button" onclick="showQuestion(26)" id="bt26">26</button>
+            <button type="button" onclick="showQuestion(27)" id="bt27">27</button>
+            <button type="button" onclick="showQuestion(28)" id="bt28">28</button>
+            <button type="button" onclick="showQuestion(29)" id="bt29">29</button>
+            <button type="button" onclick="showQuestion(30)" id="bt30">30</button>
+            
+            <button type="button" onclick="showQuestion(31)" id="bt31">31</button>
+            <button type="button" onclick="showQuestion(32)" id="bt32">32</button>
+            <button type="button" onclick="showQuestion(33)" id="bt33">33</button>
+            <button type="button" onclick="showQuestion(34)" id="bt34">34</button>
+            <button type="button" onclick="showQuestion(35)" id="bt35">35</button>
+            <button type="button" onclick="showQuestion(36)" id="bt36">36</button>
+            <button type="button" onclick="showQuestion(37)" id="bt37">37</button>
+            <button type="button" onclick="showQuestion(38)" id="bt38">38</button>
+            <button type="button" onclick="showQuestion(39)" id="bt39">39</button>
+            <button type="button" onclick="showQuestion(40)" id="bt40">40</button>
+            
+            <button type="button" onclick="showQuestion(41)" id="bt41">41</button>
+            <button type="button" onclick="showQuestion(42)" id="bt42">42</button>
+            <button type="button" onclick="showQuestion(43)" id="bt43">43</button>
+            <button type="button" onclick="showQuestion(44)" id="bt44">44</button>
+            <button type="button" onclick="showQuestion(45)" id="bt45">45</button>
+            <button type="button" onclick="showQuestion(46)" id="bt46">46</button>
+            <button type="button" onclick="showQuestion(47)" id="bt47">47</button>
+            <button type="button" onclick="showQuestion(48)" id="bt48">48</button>
+            <button type="button" onclick="showQuestion(49)" id="bt49">49</button>
+            <button type="button" onclick="showQuestion(50)" id="bt50">50</button>
+            
+            <button type="button" onclick="showQuestion(51)" id="bt51">51</button>
+            <button type="button" onclick="showQuestion(52)" id="bt52">52</button>
+            <button type="button" onclick="showQuestion(53)" id="bt53">53</button>
+            <button type="button" onclick="showQuestion(54)" id="bt54">54</button>
+            <button type="button" onclick="showQuestion(55)" id="bt55">55</button>
+            
+    </div>
+
+    <h3 id="result"></h3>
+
+<script>
+    // Total questions
+    const totalQuestions = 55;
+    let currentQuestion = 1;
+
+    // Show only the current question
+    function showQuestion(n) {
+        for (let i = 1; i <= totalQuestions; i++) {
+            const q = document.getElementById('question' + i);
+            if (i === n) q.classList.add('active');
+            else q.classList.remove('active');
+        }
+    }
+
+    // Next question
+    function next() {
+        if (currentQuestion < totalQuestions) {
+            currentQuestion++;
+            showQuestion(currentQuestion);
+        }
+    }
+
+    // Previous question
+    function previous() {
+        if (currentQuestion > 1) {
+            currentQuestion--;
+            showQuestion(currentQuestion);
+        }
+    }
+
+    // Clear selected answer for current question
+    function clearAnswer() {
+        const radios = document.getElementsByName('q' + currentQuestion);
+        for (let radio of radios) {
+            radio.checked = false;
+        }
+    }
+
+    // Calculate score
+    function calculateScore() {
+        const answers = {
+            1:'a',2:'c',3:'b',4:'a',5:'b',6:'c',7:'b',8:'a',9:'d',10:'b',
+            11:'a',12:'c',13:'b',14:'d',15:'a',16:'a',17:'b',18:'b',19:'b',20:'c',
+            21:'a',22:'b',23:'a',24:'b',25:'c',26:'a',27:'a',28:'b',29:'b',30:'a',
+            31:'c',32:'a',33:'b',34:'b',35:'b',36:'b',37:'b',38:'b',39:'a',40:'b',
+            41:'b',42:'a',43:'c',44:'b',45:'a',46:'a',47:'b',48:'a',49:'b',50:'b',
+            51:'b',52:'b',53:'c',54:'a',55:'b'
+        };
+
+        let score = 0;
+
+        for (let i = 1; i <= totalQuestions; i++) {
+            const radios = document.getElementsByName('q' + i);
+            for (let radio of radios) {
+                if (radio.checked && radio.value === answers[i]) {
+                    score++;
+                }
+            }
+        }
+
+        const percentage = (score / totalQuestions * 100).toFixed(2);
+        let grade = '';
+        if (percentage >= 90) grade = 'A+';
+        else if (percentage >= 80) grade = 'A';
+        else if (percentage >= 70) grade = 'B';
+        else if (percentage >= 60) grade = 'C';
+        else grade = 'F';
+
+        // Display result in h3 instead of alert
+        document.getElementById('result').innerHTML =
+            `Your Score: ${score}/${totalQuestions}<br>` +
+            `Percentage: ${percentage}%<br>` +
+            `Grade: ${grade}`;
+    }
+
+    // Initialize first question
+    showQuestion(currentQuestion);
+
+    // Attach clear function to button
+    document.getElementById('clearr').addEventListener('click', clearAnswer);
+</script>
+</body>
+</html>
